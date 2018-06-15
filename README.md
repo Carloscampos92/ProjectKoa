@@ -9,24 +9,25 @@ Procedimiento:
 
 El primer paso para crear nuestra aplicacion en koa, es necesario crear nuestro archivo manejador de paquetes json; este lo iniciaremos con el comando:
 
-  - npm init
+    - npm init
 
 Nota:Los Campos que llene para este ejercicio fueron el nombre del paquete y el autor.  
 
 El segundo paso para poder usar la extención de Koa es instalarla para tenerla disponible en el ambiente de node; usando el comando:
 
-  - npm install --save koa
+    - npm install --save koa
 
 Confirmamos que el koa se encuentre disponible para nuestro ejercicio; mediante el comando:
-  - ls node_modules(linux) o dir node_modules(windows)
+    
+    - ls node_modules(linux) o dir node_modules(windows)
 
 Extra: Instale el paquete nodemon, el cual reinicia nuestro servidor tan pronto como realicemos un cambio en cualquiera de nuestros archivos.
 
-  - npm install --save nodemon
+    - npm install --save nodemon
   
 El tercer paso para nuestro ejecicio es instalar un verificador de rutas extension de koa; con el siguiente comando:
 
-  - npm install --save koa-router
+    - npm install --save koa-router
   
   Con esto terminaremos la adaptacion del ambiente que necesitamos para la aplicacion.
   
