@@ -7,13 +7,13 @@ Koa proporciona una interfaz mínima para crear aplicaciones. Es un marco muy pe
 
 Procedimiento:
 
-El primer paso para crear nuestra aplicacion en koa, es necesario crear nuestro archivo manejador de paquetes json; este lo iniciaremos con el comando:
+El primer paso para crear nuestra aplicación en koa, es necesario crear nuestro archivo manejador de paquetes json; este lo iniciaremos con el comando:
 
     - npm init
 
 Nota:Los Campos que llene para este ejercicio fueron el nombre del paquete y el autor.  
 
-El segundo paso para poder usar la extención de Koa es instalarla para tenerla disponible en el ambiente de node; usando el comando:
+El segundo paso para poder usar la extensión de Koa es instalarla para tenerla disponible en el ambiente de node; usando el comando:
 
     - npm install --save koa
 
@@ -25,11 +25,11 @@ Extra: Instale el paquete nodemon, el cual reinicia nuestro servidor tan pronto 
 
     - npm install --save nodemon
   
-El tercer paso para nuestro ejecicio es instalar un verificador de rutas extension de koa; con el siguiente comando:
+El tercer paso para nuestro ejercicio es instalar un verificador de rutas extensión de koa; con el siguiente comando:
 
     - npm install --save koa-router
   
-  Con esto terminaremos la adaptacion del ambiente que necesitamos para la aplicacion.
+  Con esto terminaremos la adaptación del ambiente que necesitamos para la aplicación.
   
 Para empezar con la prueba lo que hacemos es:
 
@@ -41,10 +41,10 @@ Para empezar con la prueba lo que hacemos es:
   
     - http://localhost:3000/
    
-    Nota: En este momento se activara la peticion get con la ruta "/" y mostrara el mensaje "¡Hola mundo!" 
+    Nota: En este momento se activara la petición get con la ruta "/" y mostrara el mensaje "¡Hola mundo!" 
    
-   3- Para probar el metodo post existen dos formas de hacerlo; uno es mediante un formulario y el segundo es mediante el comando curl;
-   para fines practicos use el comando curl para hacer la prueba del metodo post, usando la siguiente linea de codigo
+   3- Para probar el método post existen dos formas de hacerlo; uno es mediante un formulario y el segundo es mediante el comando curl;
+   para fines prácticos use el comando curl para hacer la prueba del método post, usando la siguiente linea de código
    
     - curl -X POST "https://localhost:3000/"
     
